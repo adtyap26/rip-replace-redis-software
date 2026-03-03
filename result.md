@@ -50,3 +50,8 @@ _Note_ If you failed to connect using for example private endpoint dns like this
 We can see the replication being successful if they are Synced
 
 ![synced-replica](./assets/synced-replica.png)
+
+And we can compare between these two databases from source and destination.
+
+![source db](./assets/source_db_6-2.png)
+![destination db](./assets/result-destination.png)
