@@ -1,9 +1,10 @@
-Scenario
+### Scenario
+
 We want to upgrade from 6.2.8 to 7.22. According to the Redis [upgrade](https://redis.io/docs/latest/operate/rs/installing-upgrading/upgrading/upgrade-cluster/#supported-upgrade-paths) docs, if we are going to use [inplace upgrade](https://redis.io/docs/latest/operate/rs/installing-upgrading/upgrading/upgrade-cluster/#in-place-upgrade) or [rolling upgrade](https://redis.io/docs/latest/operate/rs/installing-upgrading/upgrading/upgrade-cluster/#rolling-upgrade) within that specific version, we must first upgrade to a supported intermediate version, which in this case is 7.4.x.
 
 So we want to test it without using either in-place upgrade or rolling upgrade first. Instead, we are going to use Rip‑and‑Replace Migration with this scenario:
 
-Two Redis Cluster
+### Two Redis Cluster
 
 1. First cluster with 6.2.8 Version that contain 3 databases
 2. Second cluster with 7.22
